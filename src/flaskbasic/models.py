@@ -9,4 +9,4 @@ class Student(db.Model):
   chemistry = db.Column(db.Integer)
 
   def __repr__(self):
-    return f"Student('{self.id}', '{self.name}',{self.physics}',{self.maths}',{self.chemistry}')"
+    return "Student('{self.id}', '{self.name}',{self.physics}',{self.maths}',{self.chemistry}')"
