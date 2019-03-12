@@ -4,6 +4,6 @@ python:
   - "3.4"
 cache: pip
 install:
-  - pipenv install -r requirements.txt
+  - pipenv install 
 script:
   - python setup.py test
