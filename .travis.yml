@@ -6,5 +6,4 @@ cache: pip
 install:
   - pipenv install -r requirements.txt
 script:
-  # - py.test --cov-report term-missing --cov app -v
   - python setup.py test
