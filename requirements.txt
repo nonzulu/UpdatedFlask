@@ -38,3 +38,4 @@ flask-marshmallow
 marshmallow-sqlalchemy 
 flask-sqlalchemy 
 flask-wtf
+pipenv
