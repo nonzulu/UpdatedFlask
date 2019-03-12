@@ -2,20 +2,9 @@ from flask import Flask,render_template, redirect, url_for,request, jsonify, abo
 from flask_sqlalchemy import SQLAlchemy
 from src.flaskbasic import *
 from src.flaskbasic.form import StudentForm
-<<<<<<< HEAD
 from src.flaskbasic.models import Student
 import sys
 import logging
-=======
-import sys
-import logging
-
-# logging.basicConfig(filename='app.log', filemode='w', format='%(asctime)s - %(levelname)s - %(message)s',datefmt='%d-%b-%y %H:%M:%S')
-_logger_adding = logging.getLogger('Adding results')
-_logger_getting = logging.getLogger('Get results')
-_logger_update = logging.getLogger('Update results')
-_logger_delete = logging.getLogger('Delete results')
->>>>>>> 2efc853f569b31bed390d3159bb9fb07d4dc6549
 
 # logging.basicConfig(filename='app.log', filemode='w', format='%(asctime)s - %(levelname)s - %(message)s',datefmt='%d-%b-%y %H:%M:%S')
 _logger_adding = logging.getLogger('Adding results')
