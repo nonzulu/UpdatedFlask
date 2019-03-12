@@ -16,5 +16,7 @@ install:
  
 
 script:
- # - pipenv shell
+ - pipenv shell
  - python setup.py test
+# after_success:
+#   - coveralls
